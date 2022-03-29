@@ -71,6 +71,9 @@ p.read-btn{
     margin-right: 20px;
 
 }
+.container {
+width: 90%;
+}
 /*header*/
 header{
     text-align: center;
@@ -97,4 +100,65 @@ h1{
     text-transform: uppercase;
     margin: auto;
     
+}
+
+.main-news{
+    position: relative; /*the parent should be relative*/
+    margin-bottom:20px;
+}
+.main-news-img img{
+    height:80%;
+}
+
+.main-news-text{
+position:absolute;
+top:120px;
+left:20px;
+}
+
+main-news-text p.title{
+    font-size:40px;
+    font-weight:700;
+    color: white;
+    letter-spacing: 1px;
+    margin: center;
+}
+
+.main-news-text p.read-btn{
+color: white;
+}
+
+/*secondary-news*/
+.secondary-news{
+    positon
+}
+.secondary-news-img{
+    height: 100%;
+}
+
+.secondary-news-text{
+font-size: 24px;
+font-weight:700;
+
+}
+
+
+/*todays picks*/
+.pick-item{
+    display: grid;
+    grid-template-columns:1fr 4fr;
+    margin-bottom: 20px;
+    column-gap:30px;
+}
+.pick-item img{
+    width:100px;
+    height:100px;
+}
+.picks-text p{
+    color: white;
+    font-weight: 700;
+    line-height: 1.5;
+}
+.picks-text p:hover{
+    text-decoration: underline;
 }
