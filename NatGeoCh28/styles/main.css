@@ -80,7 +80,7 @@ header{
     font-size: 20px;
 }
 p{
-font-size:15px;
+font-size:20px;
 }
 
 .sub-word{
@@ -92,7 +92,11 @@ border-bottom: 1px solid yellow;
     background-color: var(--primary)
 }
 .border{
-
+border-bottom: 1px solid yellow;
+width: 10%;
+height: 0;
+margin-right: auto;
+margin-left: auto;
 }
 
 /*main*/
